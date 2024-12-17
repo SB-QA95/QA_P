@@ -1,0 +1,134 @@
+{
+	"id": "38d9d677-21c5-47ce-aa72-e5c356c7bf2d",
+	"name": "RestAPI-1",
+	"timestamp": "2024-12-02T20:46:22.898Z",
+	"collection_id": "40053126-c6bfcb3b-102f-4f55-a2ab-79fbe7f113c3",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 9,
+	"delay": "3",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-12-02T20:46:20.165Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0984f903-2b6b-4d73-a5a0-3005be626364",
+			"name": "First_req1",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 27,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				28,
+				26,
+				27
+			],
+			"allTests": [
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "50097b58-2b23-47b7-9568-199618b279ed",
+			"name": "Second_req",
+			"url": "https://reqres.in/api/users",
+			"time": 310,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"check status": true
+			},
+			"testPassFailCounts": {
+				"check status": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				222,
+				246,
+				310
+			],
+			"allTests": [
+				{
+					"check status": true
+				},
+				{
+					"check status": true
+				},
+				{
+					"check status": true
+				}
+			]
+		},
+		{
+			"id": "5ba317f1-f196-4a6d-b214-b2aac7ec8f88",
+			"name": "Third_req",
+			"url": "https://reqres.in/api/users/2",
+			"time": 237,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"check status": true,
+				"check status code": true
+			},
+			"testPassFailCounts": {
+				"check status": {
+					"pass": 3,
+					"fail": 0
+				},
+				"check status code": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				281,
+				323,
+				237
+			],
+			"allTests": [
+				{
+					"check status": true,
+					"check status code": true
+				},
+				{
+					"check status": true,
+					"check status code": true
+				},
+				{
+					"check status": true,
+					"check status code": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 1700,
+	"collection": {
+		"requests": [
+			{
+				"id": "0984f903-2b6b-4d73-a5a0-3005be626364",
+				"method": "GET"
+			},
+			{
+				"id": "50097b58-2b23-47b7-9568-199618b279ed",
+				"method": "POST"
+			},
+			{
+				"id": "5ba317f1-f196-4a6d-b214-b2aac7ec8f88",
+				"method": "PUT"
+			}
+		]
+	}
+}

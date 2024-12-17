@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Bhavana",
+      "phone": "12348945",
+      "Age": 24,
+      "course": "CSE",
+      "Dob": "07/20/2000"
+    },
+    {
+      "id": "2",
+      "name": "Harshita",
+      "phone": "123456345",
+      "Age": 21,
+      "course": "C",
+      "Dob": "04/10/2003"
+    },
+    {
+      "name": "K V V Satish",
+      "Age": 52,
+      "course": "Politician",
+      "phone": "374563769",
+      "Dob": "10/01/1972",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "name": "Rajini",
+      "Age": 38,
+      "course": "Baker",
+      "Dob": "06/15/1982"
+    },
+    {
+      "id": "df99",
+      "name": "Satya",
+      "phone": "23477745",
+      "Age": 25,
+      "course": "Civil",
+      "Dob": "07/12/2001"
+    },
+    {
+      "id": "1a64",
+      "name": "Gopal",
+      "phone": "9876577745",
+      "Age": 26,
+      "course": "ECE",
+      "Dob": "04/27/1999"
+    },
+    {
+      "id": "4f26",
+      "name": "Gopal",
+      "phone": "9876577745",
+      "Age": 26,
+      "course": "ECE",
+      "Dob": "04/27/1999"
+    },
+    {
+      "id": "cd07",
+      "name": "Gopal",
+      "phone": "9876577745",
+      "Age": 26,
+      "course": "ECE",
+      "Dob": "04/27/1999"
+    },
+    {
+      "id": "a9d2",
+      "name": "Gopal",
+      "phone": "9876577745",
+      "Age": 26,
+      "course": "ECE",
+      "Dob": "04/27/1999"
+    },
+    {
+      "id": "1ec7",
+      "name": "Gopal",
+      "phone": "9876577745",
+      "Age": 26,
+      "course": "ECE",
+      "Dob": "04/27/1999"
+    }
+  ]
+}
